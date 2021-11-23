@@ -1,22 +1,17 @@
 ::selection {
-  background: hotpink;
+  background: chocolate;
   color: black;
 }
 
 :root {
-  color: mistyrose;
-  background: darkviolet;
+  color: black;
+  background: hotpink;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background: #70a;
-  }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    color: pink;
+    color: hotpink;
+    background: black;
   }
 }
 
