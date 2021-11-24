@@ -27,6 +27,10 @@ var {
   font-style: inherit;
 }
 
+:focus {
+  outline-width: thick;
+}
+
 .flex {
   display: flex;
   gap: 1ex;
