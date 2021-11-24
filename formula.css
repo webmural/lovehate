@@ -1,5 +1,5 @@
 html {
-  font-size: calc(1em + 10vmax);
+  font-size: calc(1em + 8vmax);
 }
 
 body {
@@ -25,4 +25,9 @@ figure {
 
 var {
   font-style: inherit;
+}
+
+.flex {
+  display: flex;
+  gap: 1ex;
 }

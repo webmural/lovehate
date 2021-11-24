@@ -8,15 +8,19 @@
   background: hotpink;
 }
 
+:any-link {
+  color: black;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: hotpink;
     background: black;
   }
-}
 
-:any-link {
-  color: lightsalmon;
+  :any-link {
+    color: lightsalmon;
+  }
 }
 
 mark {
