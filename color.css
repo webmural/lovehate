@@ -4,22 +4,32 @@
 }
 
 :root {
-  color: black;
+  color: #060606;
   background: hotpink;
+}
+
+:any-link {
+  color: #020202;
+}
+
+mark {
+  color: #020202;
+  background: salmon;
+}
+
+@media (prefers-contrast: more) {
+  mark {
+    background: lightsalmon;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    color: hotpink;
-    background: black;
+    color: salmon;
+    background: #020202;
   }
-}
 
-:any-link {
-  color: lightsalmon;
-}
-
-mark {
-  color: black;
-  background: salmon;
+  :any-link {
+    color: hotpink;
+  }
 }
